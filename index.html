@@ -6,14 +6,47 @@
     <head>
         <!-- 上面瀏覽器分頁的名字 -->
         <title>認識HTML</title>
+        <!-- 第二種寫法 內部CSS 可以一次改很多個顏色 要寫在head裡-->
+        <style>
+            h3{
+                color:aqua;
+                font-size: 2em;
+                font-weight:100;
+            }
+        </style>
+        <!-- 第三種寫法 外部CSS -->
+        <link rel="stylesheet" href="style.css">
     </head>
     <!-- 身體 網頁內容 -->
     <body>
         <!-- 屬性要空一格放在括號裡面 -->
         <h1 align="center">標題一</h1>
+        <!-- 行內CSS 替換不支援的HTML -->
+        <h1 style="text-align:center;">標題一</h1>
         <h2>標題二</h2>
         <!-- a連結元素 href網址屬性 -->
         <!-- target目的 _blank開新的頁面 -->
         <a href="https://tw.yahoo.com/" target="_blank">yahoo</a>
+        <!-- 第一種寫法 行內CSS -->
+        <h1 style="color:gold;">標題</h1>
+        <h1>標題</h1>
+        <!-- div區塊元素 -->
+        <!-- 多重屬性 文字大小:尺寸 文字寬度:尺寸 -->
+        <!-- 2em=16px *2=32px -->
+        <!-- font-weight:0-900 數字越大越粗 -->
+        <div>style= font-size: 32px; font-weight:900;</div>
+        <h3>標題</h3>
+        <h3>標題</h3>
+        <h3>標題</h3>
+<!--  class類別(名字不要用數字開頭) 用在多個元素 -->
+<p class="red">段落</p>
+<p class="red">段落</p>
+<p>段落</p>
+
+<div class="red">區塊</div> 
+<h5 class="red">標題5</h5>
+
+<!-- id識別(名字不要用數字開頭) 一個頁面只能有一個識別 -->
+<div id="box">區塊</div>
     </body>
 </html>

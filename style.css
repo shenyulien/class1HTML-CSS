@@ -1,0 +1,23 @@
+h2{color:gold;}
+/* .類別名稱 */
+.red{
+    color:indianred;
+}
+#box{
+    background-color: brown;
+    height:50px;
+    color:wheat;
+    text-align: center;
+    /* 定位:固定 */
+    position:fixed;
+    /* 上方距離 */
+    top:0;
+    /* 寬度 */
+    width:100%;
+
+}
+body
+{
+    height:1500px
+
+}
